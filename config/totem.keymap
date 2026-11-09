@@ -58,7 +58,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <175>;
+            require-prior-idle-ms = <225>;
             hold-trigger-key-positions = <KEYS_R THUMB_R>;
             hold-trigger-on-release;
         };
@@ -69,7 +69,7 @@
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <175>;
+            require-prior-idle-ms = <225>;
             hold-trigger-key-positions = <KEYS_L THUMB_L_MOD>;
             hold-trigger-on-release;
         };
@@ -81,7 +81,7 @@
             flavor = "balanced";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <175>;
+            require-prior-idle-ms = <225>;
             hold-trigger-key-positions = <KEYS_R THUMB_R>;
             hold-trigger-on-release;
         };
@@ -92,7 +92,7 @@
             flavor = "balanced";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <175>;
+            require-prior-idle-ms = <225>;
             hold-trigger-key-positions = <KEYS_L THUMB_L_MOD>;
             hold-trigger-on-release;
         };
@@ -159,7 +159,7 @@
 //                            ├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤   ├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
                               &hml LCTRL A              &hml LALT S               &hml LGUI D               &hmls LSHFT F             &kp G                         &kp H                     &hmrs RSHFT J             &hmr RGUI K               &hmr RALT L               &hmr RCTRL SEMI
 //  ┌─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┐   ┼─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
-    &kp F21                 &kp Z                     &kp X                     &kp C                     &kp V                     &kp B                         &kp N                     &kp M                     &kp COMMA                 &kp DOT                   &kp FSLH                  &kp F22
+    &kp LSHFT               &kp Z                     &kp X                     &kp C                     &kp V                     &kp B                         &kp N                     &kp M                     &kp COMMA                 &kp DOT                   &kp FSLH                  &kp RSHFT
 //  └─────────────────────────┴─────────────────────────┴─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤   ├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┴─────────────────────────┴─────────────────────────┘
                                                                                   &lt_thumb_l FUN ESC       &lt_thumb_l NAV TAB       &kp SPACE                     &lt_thumb_r SYM RET       &lt_thumb_r NUM BSPC     &mt_thumb_macro RS(RC(RA(RGUI))) 0
 //                                                                                └─────────────────────────┴─────────────────────────┴─────────────────────────┘   └─────────────────────────┴─────────────────────────┴─────────────────────────┘
