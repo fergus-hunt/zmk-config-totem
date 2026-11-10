@@ -9,7 +9,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 ```
         LEFT THUMBS                       RIGHT THUMBS
    ┌───────┬───────┬───────┐     ┌───────┬───────┬───────┐
-   │  Esc  │  Tab  │ Space │     │ Enter │ Bksp  │  F18  │  ← tap
+   │  Esc  │  Tab  │ Space │     │ Enter │ Bksp  │  F19  │  ← tap
    │  FUN  │  NAV  │       │     │  SYM  │  NUM  │ HYPER │  ← hold
    └───────┴───────┴───────┘     └───────┴───────┴───────┘
      outer   middle  inner         inner   middle  outer
@@ -21,7 +21,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 | Left middle (Tab) | **Nav**: arrows, media, copy/paste | Tab |
 | Right inner (Enter) | **Sym**: symbols | Enter / Return |
 | Right middle (Backspace) | **Num**: numbers, brackets | Backspace |
-| Right outer | **Hyper** (Shift+Ctrl+Alt+Cmd) | F18 |
+| Right outer | **Hyper** (Shift+Ctrl+Alt+Cmd) | F19 |
 
 > **Tip:** Layer thumbs turn on instantly when your next key is on the **opposite** hand. For a key on the **same** hand as the thumb, such as Nav's media keys on the left, hold the thumb a moment (~180 ms) before you press it.
 
@@ -40,7 +40,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
  ┌─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┐
  │ Sft │  Z  │  X  │  C  │  V  │  B  │   │  N  │  M  │  ,  │  .  │  /  │ Sft │
  └─────┴─────┴─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┴─────┴─────┘
-                   │ Esc │ Tab │Space│   │Enter│Bksp │ F18 │
+                   │ Esc │ Tab │Space│   │Enter│Bksp │ F19 │
                    │ FUN │ NAV │     │   │ SYM │ NUM │HYPER│  ← hold
                    └─────┴─────┴─────┘   └─────┴─────┴─────┘
 ```
@@ -190,7 +190,8 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 | Previous desktop/space (Ctrl+←) | **Nav** + `C` |
 | Next desktop/space (Ctrl+→) | **Nav** + `B` |
 | Hyper (Shift+Ctrl+Alt+Cmd) | Hold right outer thumb |
-| F18 | Tap right outer thumb, or **Fun** + `,` |
+| F18 | **Fun** + `,` |
+| F19 | Tap right outer thumb, or **Fun** + `.` |
 
 ### Media and volume
 

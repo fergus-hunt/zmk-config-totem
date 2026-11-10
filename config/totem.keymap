@@ -41,11 +41,11 @@
     /* }; */
 
     macros {
-        tap_f18: tap_f18 {
+        tap_f19: tap_f19 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
-            bindings = <&kp F18>;
+            bindings = <&kp F19>;
         };
     };
 
@@ -139,7 +139,7 @@
         mt_thumb_macro: mt_thumb_macro {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            bindings = <&kp>, <&tap_f18>;
+            bindings = <&kp>, <&tap_f19>;
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <150>;
