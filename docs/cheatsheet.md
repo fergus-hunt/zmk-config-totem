@@ -9,7 +9,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 ```
         LEFT THUMBS                       RIGHT THUMBS
    ┌───────┬───────┬───────┐     ┌───────┬───────┬───────┐
-   │  Esc  │  Tab  │ Space │     │ Enter │ Bksp  │  F19  │  ← tap
+   │  Esc  │  Tab  │ Space │     │ Enter │ Bksp  │  F18  │  ← tap
    │  FUN  │  NAV  │       │     │  SYM  │  NUM  │ HYPER │  ← hold
    └───────┴───────┴───────┘     └───────┴───────┴───────┘
      outer   middle  inner         inner   middle  outer
@@ -21,7 +21,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 | Left middle (Tab) | **Nav**: arrows, media, copy/paste | Tab |
 | Right inner (Enter) | **Sym**: symbols | Enter / Return |
 | Right middle (Backspace) | **Num**: numbers, brackets | Backspace |
-| Right outer | **Hyper** (Shift+Ctrl+Alt+Cmd) | F19 |
+| Right outer | **Hyper** (Shift+Ctrl+Alt+Cmd) | F18 |
 
 > **Tip:** Layer thumbs turn on instantly when your next key is on the **opposite** hand. For a key on the **same** hand as the thumb, such as Nav's media keys on the left, hold the thumb a moment (~180 ms) before you press it.
 
@@ -40,7 +40,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
  ┌─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┐
  │ Sft │  Z  │  X  │  C  │  V  │  B  │   │  N  │  M  │  ,  │  .  │  /  │ Sft │
  └─────┴─────┴─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┴─────┴─────┘
-                   │ Esc │ Tab │Space│   │Enter│Bksp │ F19 │
+                   │ Esc │ Tab │Space│   │Enter│Bksp │ F18 │
                    │ FUN │ NAV │     │   │ SYM │ NUM │HYPER│  ← hold
                    └─────┴─────┴─────┘   └─────┴─────┴─────┘
 ```
@@ -126,7 +126,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 | `}` | right brace, close curly | **Sym** + `T` |
 | `[` | left bracket, open square | **Num** + `Q` |
 | `]` | right bracket, close square | **Num** + `T` |
-| `<` | less than, left angle | Shift + `,` (hold `F` or `J` for Shift) |
+| `<` | less than, left angle | Shift + `,` (outer bottom keys, or hold `F` / `J`) |
 | `>` | greater than, right angle | Shift + `.` |
 | `_` | underscore | **Sym** + Space thumb |
 | `-` | minus, hyphen, dash | **Num** + Space thumb |
@@ -190,8 +190,10 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 | Previous desktop/space (Ctrl+←) | **Nav** + `C` |
 | Next desktop/space (Ctrl+→) | **Nav** + `B` |
 | Hyper (Shift+Ctrl+Alt+Cmd) | Hold right outer thumb |
-| F18 | **Fun** + `,` |
-| F19 | Tap right outer thumb, or **Fun** + `.` |
+| F16 | **Fun** + `N` |
+| F17 | Right outer bottom key, or **Fun** + `M` |
+| F18 | Tap right outer thumb, or **Fun** + `,` |
+| F19 | Left outer bottom key, or **Fun** + `.` |
 
 ### Media and volume
 
