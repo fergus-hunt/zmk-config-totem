@@ -193,7 +193,7 @@ Search this page (Cmd+F) for a character, its name, or an action, like `~`, `til
 | F16 | **Fun** + `N` |
 | F17 | Right outer bottom key, or **Fun** + `M` |
 | F18 | Tap right outer thumb, or **Fun** + `,` |
-| F19 | Left outer bottom key, or **Fun** + `.` |
+| F19 | Left outer bottom key (window switcher: right-hand letters skip home-row mods while held), or **Fun** + `.` |
 
 ### Media and volume
 
